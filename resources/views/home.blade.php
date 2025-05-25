@@ -28,7 +28,15 @@
     </div>
 
     <div class="bodytext">
-        <h1></h1>
+        <div class="textleft">
+            <h1>Soft, <span>Glowly</span><br> Skin For<br> Days.</h1>
+            <p>Our Products are suitable for a wide range of skin tones,
+                types<br> and skin types.
+            </p>
+            <a href="#">Get Started</a>
+        </div>
+
+        <img class='blackWoman' src="{{asset('images/blackwoman.png')}}" alt="">
     </div>
 
 

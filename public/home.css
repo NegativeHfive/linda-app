@@ -67,3 +67,40 @@ body{
     background-color: beige;
     color: #D29494;
 }
+
+.bodytext{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bodytext h1{
+    font-size: 5em;
+    color: #DA6C6C;
+    line-height: 1em;
+}
+
+.textleft{
+    margin-left: 3%;
+}
+
+.textleft a{
+    font-family: trail;
+    text-decoration: none;
+    background-color: #DA6C6C;
+    padding: 10px;
+    color: wheat;
+}
+
+.textleft span{
+    color: #AF3E3E;
+}
+
+.textleft p{
+    font-family: trail;
+    font-size: medium;
+}
+
+.blackWoman{
+    width: 35%;
+}
