@@ -39,10 +39,33 @@
         <img class='blackWoman' src="{{asset('images/blackwoman.png')}}" alt="">
     </div>
 
+    <div class="icons">
+
+        <div class="iconslogo">
+            <ion-icon name="cash"></ion-icon>
+            <p>Affortable</p>
+        </div>
+
+        <div class="iconslogo">
+            <ion-icon name="rose"></ion-icon>
+            <p>Sustainable</p>
+        </div>
+
+        <div class="iconslogo">
+            <ion-icon name="walk"></ion-icon>
+            <p>All Skin Types</p>
+        </div>
+
+        <div class="iconslogo">
+            <ion-icon name="wallet"></ion-icon>
+            <p>Safe</p>
+        </div>
+
+    </div>
 
 
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script  src="{{asset("/js/app.js")}}"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
