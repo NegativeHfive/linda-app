@@ -104,3 +104,22 @@ body{
 .blackWoman{
     width: 35%;
 }
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #D29494;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icons ion-icon{
+    font-size: larger;
+}
+
+.icons p{
+    font-family: trail;
+}

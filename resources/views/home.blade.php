@@ -40,27 +40,22 @@
     </div>
 
     <div class="icons">
-
         <div class="iconslogo">
             <ion-icon name="cash"></ion-icon>
             <p>Affortable</p>
         </div>
-
         <div class="iconslogo">
             <ion-icon name="rose"></ion-icon>
             <p>Sustainable</p>
         </div>
-
         <div class="iconslogo">
             <ion-icon name="walk"></ion-icon>
             <p>All Skin Types</p>
         </div>
-
         <div class="iconslogo">
             <ion-icon name="wallet"></ion-icon>
             <p>Safe</p>
         </div>
-
     </div>
 
 
