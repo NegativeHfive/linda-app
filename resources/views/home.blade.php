@@ -86,13 +86,24 @@
                 <h3>Ancient Nail Polish</h3>
                 <p>$ 99.00</p>
             </div>
-
         </div>
+    </div>
 
+    <div class="ourPartners">
+        <div class="partnerBody">
+            <div class="partnerBodyText">
+                <h1>Spring Collection</h1>
+                <p>Discover our vibrant Spring Collection, inspired<br> by blooming flowers and fresh beginnings. Enjoy new shades and gentle<br> formulas designed to make your nails shine all season long.</p>
+                <a href="#">Discover More</a>
+            </div>
+
+            <img src="{{asset ("images/treenail.png")}}" alt="">
+        </div>
     </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script  src="{{asset("/js/app.js")}}"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

@@ -17,6 +17,29 @@ gsap.from(image,{
 const icons = document.querySelector(".icons");
 gsap.from(icons,{
     opacity :0,
-    y:10,
-    duration :2 
+    y:40,
+    duration :3
 })
+
+const products = document.querySelector(".products");
+const productsAnim = document.querySelector(".productsAnim");
+let polishes = document.querySelector(".polishes");
+let shinyGem = document.querySelector(".shinyGem");
+let diamondGem = document.querySelector(".diamondGem");
+let ancientGem = document.querySelector(".ancientGem");
+
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.from(products, {
+    opacity: 0,
+    y: 100,
+    duration: 1.5,
+    scrollTrigger: {
+        trigger: products,
+        start: "top 80%", 
+        toggleActions: "play none none none",
+    },
+});
+
+gsap.from()
