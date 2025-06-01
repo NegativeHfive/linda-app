@@ -42,4 +42,27 @@ gsap.from(products, {
     },
 });
 
-gsap.from()
+let partnerBodyText = document.querySelector(".partnerBodyText");
+let partnerImage = document.querySelector(".partnerImage");
+
+gsap.from(partnerBodyText, {
+    opacity: 0,
+    x: -80,
+    duration: 1.8,
+    scrollTrigger: {
+        trigger: partnerBodyText,
+        start: "top 80%",
+        toggleActions: "play none none none",
+    },
+});
+
+gsap.from(partnerImage, {
+    opacity: 0,
+    x: 80,
+    duration: 1.8,
+    scrollTrigger: {
+        trigger: partnerImage,
+        start: "top 80%",
+        toggleActions: "play none none none",
+    },
+});

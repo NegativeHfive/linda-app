@@ -171,27 +171,6 @@ body{
     margin-top: 6%;
 }
 
-.ourPartners .navbars{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-evenly;
-    background-color: #D29494;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-.navbars h3{
-    margin-left: 5%;
-}
-
-.navbars .sponsors{
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    justify-content: space-evenly;
-    margin-left: 6%;
-}
 
 .ourPartners img{
     width: 25%;
@@ -205,8 +184,25 @@ body{
     margin-top: 5%;
 }
 
-.navbars h3{
-    font-family: trail;
-    font-weight: 100;
+.partnerBody h1{
+    font-family: lora;
 }
 
+.partnerBodyText p{
+    font-family: trail;
+    font-size: smaller;
+}
+
+.partnerBodyText a{
+    text-decoration: none;
+    background-color: #AF3E3E;
+    padding: 10px;
+    color: white;
+    font-family: trail;
+    transition: all 1s ease-in-out;
+}
+
+.partnerBodyText a:hover{
+    background-color: #D29494;
+    color: black;
+}

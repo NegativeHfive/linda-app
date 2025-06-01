@@ -92,12 +92,12 @@
     <div class="ourPartners">
         <div class="partnerBody">
             <div class="partnerBodyText">
-                <h1>Spring Collection</h1>
-                <p>Discover our vibrant Spring Collection, inspired<br> by blooming flowers and fresh beginnings. Enjoy new shades and gentle<br> formulas designed to make your nails shine all season long.</p>
+                <h1 class=''>Spring Collection</h1>
+                <p class=''>Discover our vibrant Spring Collection, inspired<br> by blooming flowers and fresh beginnings. Enjoy new shades and gentle<br> formulas designed to make your nails shine all season long.</p>
                 <a href="#">Discover More</a>
             </div>
 
-            <img src="{{asset ("images/treenail.png")}}" alt="">
+            <img class='partnerImage' src="{{asset ("images/treenail.png")}}" alt="">
         </div>
     </div>
 
