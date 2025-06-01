@@ -58,6 +58,39 @@
         </div>
     </div>
 
+    <div class="products">
+        <h1>Soft Products</h1>
+
+        <div class="productsAnim">
+
+            <div class="polishes">
+                <img class='polishesImg' src="{{asset('images/polishes.jpg')}}" alt="">
+                <h3>Nail Polish</h3>
+                <p>$ 130.30</p>
+            </div>
+
+            <div class="shinyGem">
+                <img class="polishesImg" src="{{asset("images/shinyGem.jpg")}}" alt="">
+                <h3>Shiny Gem Polish</h3>
+                <p>$ 20.00</p>
+            </div>
+
+            <div class="diamondGem">
+                <img class="polishesImg" src="{{asset("images/diamondGem.jpg")}}" alt="">
+                <h3>Diamond Gem Polish</h3>
+                <p>$ 120.00</p>
+            </div>
+
+            <div class="ancientGem">
+                <img class="polishesImg" src="{{asset("images/ancientGem.jpg")}}" alt="">
+                <h3>Ancient Nail Polish</h3>
+                <p>$ 99.00</p>
+            </div>
+
+        </div>
+
+    </div>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script  src="{{asset("/js/app.js")}}"></script>
