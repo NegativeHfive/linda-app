@@ -66,3 +66,65 @@ gsap.from(partnerImage, {
         toggleActions: "play none none none",
     },
 });
+
+let costumerReview = document.querySelectorAll(".costumerreview");
+
+gsap.from(costumerReview, {
+    opacity: 0,
+    x: -100,
+    duration: 2,
+    scrollTrigger: {
+        trigger: costumerReview,
+        start: "top 120%",
+        toggleActions: "play none none none"
+    },
+});
+
+//Three.js 3D Cube Example
+const geometryDiv = document.querySelector(".geometry");
+
+
+if (geometryDiv) {
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(
+        75,
+        geometryDiv.offsetWidth / 300,
+        0.1,
+        1000
+    );
+
+    const renderer = new THREE.WebGLRenderer({ alpha: true });
+    renderer.setSize(geometryDiv.offsetWidth || 300, 300);
+    geometryDiv.appendChild(renderer.domElement);
+
+    // Create a diamond shape (octahedron)
+    const diamondGeometry = new THREE.OctahedronGeometry(0.9);
+    const diamondMaterial = new THREE.MeshPhongMaterial({
+        color: 0xadd8e6, // light blue, like a diamond
+        shininess: 150,
+        transparent: true,
+        opacity: 1
+    });
+    const diamond = new THREE.Mesh(diamondGeometry, diamondMaterial);
+    scene.add(diamond);
+
+    // Add a white light
+    const light = new THREE.PointLight(0xffffff, 10, 20);
+    light.position.set(-2, -1, 5);
+    scene.add(light);
+
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.7);
+    scene.add(ambientLight);
+
+    camera.position.z = 2;
+    renderer.setClearColor(0xffffff, 1);
+
+    // Animate loop
+    function animate() {
+        requestAnimationFrame(animate);
+        diamond.rotation.y += 0.01;
+        diamond.rotation.x += 0.01;
+        renderer.render(scene, camera);
+    }
+    animate();
+}

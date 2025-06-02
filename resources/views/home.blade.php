@@ -105,7 +105,7 @@
         <div class="reviewsDiv">
             <div class="costumerreview">
                 <h1>""</h1>
-                <p>"I absolutely love these products! My nails have never looked better and the colors are gorgeous. Highly recommended!"</p>
+                <p>"I absolutely love these products! My nails have never looked better and the colors are gorgeous. I really highly recommend it!!"</p>
                 <img src="{{asset("images/profileco.png")}}"alt="">
                 <h3>Susan Mozambique</h3>
             </div>
@@ -121,15 +121,21 @@
                 <h1>""</h1>
                 <p>"Fast shipping and beautiful packaging! The polish goes on smoothly and lasts for days. I’m so happy with my lovely purchase!"</p>
                 <img src="{{asset("images/profileco.png")}}"alt="">
-                <h3>Nana Manu</h3>
+                <h3>Yolando Barkoo</h3>
             </div>
 
         </div>
     </div>
 
+    <div class="geometry">
+        
+    </div>
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
     <script  src="{{asset("/js/app.js")}}"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
