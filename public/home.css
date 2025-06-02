@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: whitesmoke;
 }
 
 @font-face {
@@ -27,7 +27,7 @@ body{
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #D29494;
+    background-color: #AF3E3E;
     color: aliceblue;
 }
 
@@ -70,7 +70,7 @@ body{
 
 .navbarlinks a:hover{
     background-color: beige;
-    color: #D29494;
+    color: #AF3E3E;
 }
 
 .bodytext{
@@ -116,9 +116,10 @@ body{
     width: 100%;
     justify-content: space-evenly;
     text-align: center;
-    background-color: #D29494;
+    background-color: #AF3E3E;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: whitesmoke;
 }
 
 .icons ion-icon{
@@ -205,4 +206,34 @@ body{
 .partnerBodyText a:hover{
     background-color: #D29494;
     color: black;
+}
+
+.costumerreview{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    width: 20%;
+    background-color: beige;
+    box-shadow: 0.2px 0.2px 0.2px 0.2px black;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom:3%;
+}
+
+.costumerreview img{
+    width: 30%;
+}
+
+.reviewsDiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.reviewsDiv h1{
+    font-family: trail;
+    font-style: italic;
 }

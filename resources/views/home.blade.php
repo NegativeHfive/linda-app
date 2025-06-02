@@ -33,7 +33,7 @@
             <p>Our Products are suitable for a wide range of skin tones,
                 types<br> and skin types.
             </p>
-            <a href="#">Get Started</a>
+            <a href="#">Our Shop</a>
         </div>
 
         <img class='blackWoman' src="{{asset('images/blackwoman.png')}}" alt="">
@@ -94,10 +94,36 @@
             <div class="partnerBodyText">
                 <h1 class=''>Spring Collection</h1>
                 <p class=''>Discover our vibrant Spring Collection, inspired<br> by blooming flowers and fresh beginnings. Enjoy new shades and gentle<br> formulas designed to make your nails shine all season long.</p>
-                <a href="#">Discover More</a>
+                <a href="#">About Us</a>
+            </div>
+            <img class='partnerImage' src="{{asset ("images/treenail.png")}}" alt="">
+        </div>
+    </div>
+
+    <div class="ourReviews">
+        <h1>Read what our costumers say</h1>
+        <div class="reviewsDiv">
+            <div class="costumerreview">
+                <h1>""</h1>
+                <p>"I absolutely love these products! My nails have never looked better and the colors are gorgeous. Highly recommended!"</p>
+                <img src="{{asset("images/profileco.png")}}"alt="">
+                <h3>Susan Mozambique</h3>
             </div>
 
-            <img class='partnerImage' src="{{asset ("images/treenail.png")}}" alt="">
+            <div class="costumerreview">
+                <h1>""</h1>
+                <p>"These nail polishes are amazing! The colors last so long and my friends always compliment my nails. I’ll definitely buy again!"</p>
+                <img src="{{asset("images/profileco.png")}}"alt="">
+                <h3>Lisa Sandra Gonzalez</h3>
+            </div>
+
+            <div class="costumerreview">
+                <h1>""</h1>
+                <p>"Fast shipping and beautiful packaging! The polish goes on smoothly and lasts for days. I’m so happy with my lovely purchase!"</p>
+                <img src="{{asset("images/profileco.png")}}"alt="">
+                <h3>Nana Manu</h3>
+            </div>
+
         </div>
     </div>
 
