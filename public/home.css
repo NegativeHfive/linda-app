@@ -258,3 +258,15 @@ body{
     color: #AF3E3E;
 }
 
+.geometryDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.geometry {
+    width: 500px;
+    height: 300px;
+    background: whitesmoke;
+}

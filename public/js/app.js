@@ -93,23 +93,28 @@ if (geometryDiv) {
         1000
     );
 
-    const renderer = new THREE.WebGLRenderer({ alpha: true });
+    const renderer = new THREE.WebGLRenderer();
     renderer.setSize(geometryDiv.offsetWidth || 300, 300);
     geometryDiv.appendChild(renderer.domElement);
 
-    // Create a diamond shape (octahedron)
+    // Load the texture
+    const textureLoader = new THREE.TextureLoader();
+    const diamondTexture = textureLoader.load("/images/diamondblue.jpg");
+
+    // Create a diamond shape (octahedron) with texture
     const diamondGeometry = new THREE.OctahedronGeometry(0.9);
     const diamondMaterial = new THREE.MeshPhongMaterial({
-        color: 0xadd8e6, // light blue, like a diamond
-        shininess: 150,
-        transparent: true,
-        opacity: 1
+        map: diamondTexture, // use the texture
+        color: 'white', // optional: tint
+        shininess: 1900,
+        transparent: false,
+        opacity: 100,
     });
     const diamond = new THREE.Mesh(diamondGeometry, diamondMaterial);
     scene.add(diamond);
 
-    // Add a white light
-    const light = new THREE.PointLight(0xffffff, 10, 20);
+    // Add lights
+    const light = new THREE.PointLight(0xffffff, 100, 120);
     light.position.set(-2, -1, 5);
     scene.add(light);
 

@@ -127,8 +127,11 @@
         </div>
     </div>
 
-    <div class="geometry">
-        
+    <div class="geometryDiv">
+        <div class="goemetrytext">
+            Banan
+        </div>
+        <div class="geometry"></div>
     </div>
 
 
