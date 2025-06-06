@@ -105,7 +105,7 @@ if (geometryDiv) {
     const diamondGeometry = new THREE.OctahedronGeometry(0.9);
     const diamondMaterial = new THREE.MeshPhongMaterial({
         map: diamondTexture, // use the texture
-        color: 'white', // optional: tint
+        color: 'yellow', // optional: tint
         shininess: 1900,
         transparent: false,
         opacity: 100,
@@ -122,7 +122,7 @@ if (geometryDiv) {
     scene.add(ambientLight);
 
     camera.position.z = 2;
-    renderer.setClearColor(0xffffff, 1);
+    renderer.setClearColor("red", 0);
 
     // Animate loop
     function animate() {
