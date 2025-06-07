@@ -166,6 +166,7 @@
         <p>
             Crafted with care for every shine. Join<br> our community and let your beauty inspire the world.<br> Stay connected for new collections, tips, and exclusive offers!<br>
         </p>
+        <hr>
         <h4>&copy;2025 Godrine Manu </h4>
 
     </div>

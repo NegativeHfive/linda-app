@@ -9,3 +9,6 @@ Route::get('/', function () {
 Route::get('/home',function(){
     return view('home');
 });
+
+Route::get('/login', [App\Http\Controllers\LoginController::class, 'showLoginForm']);
+Route::post('/login', [App\Http\Controllers\LoginController::class, 'login']);
