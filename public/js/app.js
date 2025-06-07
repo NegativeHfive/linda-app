@@ -99,14 +99,14 @@ if (geometryDiv) {
 
     // Load the texture
     const textureLoader = new THREE.TextureLoader();
-    const diamondTexture = textureLoader.load("/images/diamondblue.jpg");
+    const diamondTexture = textureLoader.load("/images/reddiamond.jpg");
 
     // Create a diamond shape (octahedron) with texture
-    const diamondGeometry = new THREE.OctahedronGeometry(0.9);
+    const diamondGeometry = new THREE.OctahedronGeometry(0.10);
     const diamondMaterial = new THREE.MeshPhongMaterial({
         map: diamondTexture, // use the texture
-        color: 'yellow', // optional: tint
-        shininess: 1900,
+        color: 'pink', // optional: tint
+        shininess: 2900,
         transparent: false,
         opacity: 100,
     });
@@ -121,13 +121,13 @@ if (geometryDiv) {
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.7);
     scene.add(ambientLight);
 
-    camera.position.z = 2;
+    camera.position.z = 0.2;
     renderer.setClearColor("red", 0);
 
     // Animate loop
     function animate() {
         requestAnimationFrame(animate);
-        diamond.rotation.y += 0.01;
+        diamond.rotation.y += 0.05;
         diamond.rotation.x += 0.01;
         renderer.render(scene, camera);
     }
