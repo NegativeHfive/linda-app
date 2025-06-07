@@ -15,7 +15,7 @@ body{
 }
 
 @font-face {
-    font-family: Playlist;
+    font-family: list;
     src: url(./fonts/Playlist\ Script.otf);
 }
 
@@ -262,8 +262,35 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-top: 5%;
 }
+
+.layer{
+    margin-top: 10%;
+    text-align: center;
+    font-size: larger;
+    color: #AF3E3E;
+}
+
+.layer h1{
+    font-family: lora;
+}
+
+.goemetrytext{
+    width: 50%;
+}
+
+.goemetrytext p{
+    font-family: trail;
+    font-size: small;
+}
+
+.goemetrytext h2{
+    font-family: list;
+    color: #AF3E3E;
+}
+
 
 .geometry {
     width: 500px;

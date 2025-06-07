@@ -127,9 +127,17 @@
         </div>
     </div>
 
+    <div class="layer">
+        <h1>OUR GOAL</h1>
+    </div>
+
     <div class="geometryDiv">
         <div class="goemetrytext">
-            Banan
+           <h2>What we want to achieve in 3035</h2>
+           <p>
+            By 3035, we aim to revolutionize nail care with 100% sustainable, cruelty-free products, empower communities through beauty education, and inspire confidence in every individual who uses our brand.<br><br>
+            We are committed to reducing our environmental footprint, supporting local artisans, and continuously innovating to bring you the safest and most beautiful nail products. Our vision is to create a global community where beauty and sustainability go hand in hand, making a positive impact for generations to come.
+            </p>
         </div>
         <div class="geometry"></div>
     </div>
