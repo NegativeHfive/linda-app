@@ -142,6 +142,23 @@
         <div class="geometry"></div>
     </div>
 
+    <div class="feminine">
+
+        <div class="feminineText">
+            <p>GET YOUR SHINE ON</p>
+            <h1>Shining Feminine</h1>
+            <p>Celebrate your unique beauty and confidence with every brush stroke. Our products are designed to let your inner light shine, empowering you to express your true, radiant self.</p><br><br>
+
+            <h2>Elegance in Every Stroke</h2>
+            <p>Experience the perfect blend of elegance and style with every application. Our formulas glide on smoothly, delivering a flawless finish that enhances your natural grace and sophistication.</p>
+        </div>
+
+        <img class='femininefoto' src="{{asset('images/prettywoman.png')}}" alt="">
+
+    </div>
+
+
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>

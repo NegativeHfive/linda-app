@@ -291,9 +291,42 @@ body{
     color: #AF3E3E;
 }
 
-
 .geometry {
     width: 500px;
     height: 300px;
     background-color: whitesmoke;
+}
+
+.feminine{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #AF3E3E;
+    margin-top: 15%;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.feminine .feminineText{
+    width: 50%;
+    background-color: #AF3E3E;
+    color: beige;
+}
+
+.feminineText h1 {
+    font-size: 3em;
+}
+
+.feminineText h2{
+    font-size: 2em;
+}
+
+.feminineText p{
+    font-family: trail;
+    font-size: small;
+}
+
+.feminine img{
+    width: 26%;
 }

@@ -133,3 +133,53 @@ if (geometryDiv) {
     }
     animate();
 }
+
+const geometryText = document.querySelector(".goemetrytext");
+
+gsap.from(geometryText, {
+    opacity: 0,
+    x: -100,
+    duration: 3,
+    scrollTrigger: {
+        trigger: geometryText,
+        start: "top 130%",
+        toggleActions: "play none none none",
+    },
+});
+
+gsap.from(geometryDiv, {
+    opacity: 0,
+    x: 100,
+    duration: 3,
+    scrollTrigger: {
+        trigger: geometryDiv,
+        start: "top 150%",
+        toggleActions: "play none none none",
+    },
+});
+
+const feminine = document.querySelector(".feminine");
+const feminineText = document.querySelector(".feminineText");
+const femininefoto = document.querySelector(".femininefoto");
+
+gsap.from(feminineText, {
+    opacity: 0,
+    x: -100,
+    duration: 3,
+    scrollTrigger: {
+        trigger: feminineText,
+        start: "top 150%",
+        toggleActions: "play none none none",
+    },
+});
+
+gsap.from(femininefoto, {
+    opacity: 0,
+    x: 100,
+    duration: 3,
+    scrollTrigger: {
+        trigger: femininefoto,
+        start: "top 130%",
+        toggleActions: "play none none none",
+    },
+});
