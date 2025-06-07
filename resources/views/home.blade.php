@@ -157,6 +157,19 @@
 
     </div>
 
+    <div class="footer">
+        <div class="iconsdiv">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-youtube"></ion-icon>
+            <ion-icon name="logo-firefox"></ion-icon>
+        </div>
+        <p>
+            Crafted with care for every shine. Join<br> our community and let your beauty inspire the world.<br> Stay connected for new collections, tips, and exclusive offers!<br>
+        </p>
+        <h4>&copy;2025 Godrine Manu </h4>
+
+    </div>
+
 
 
 

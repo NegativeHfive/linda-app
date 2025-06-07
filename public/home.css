@@ -330,3 +330,26 @@ body{
 .feminine img{
     width: 26%;
 }
+
+.footer{
+    font-family: trail;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 6%;
+    background-color: #D29494;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer .iconsdiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.iconsdiv ion-icon{
+ margin-left: 20px;
+}
