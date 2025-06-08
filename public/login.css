@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #AF3E3E;
+}
+
+@font-face {
+    font-family: Lora;
+    src: url(./fonts/Lora.ttf);
+}
+
+@font-face {
+    font-family: trail;
+    src: url(./fonts/Questrial-Regular.ttf);
+}
+
+@font-face {
+    font-family: list;
+    src: url(./fonts/Playlist\ Script.otf);
+}
+
+
+a{
+    color: #AF3E3E;
+}
+
+.divForm{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.form h1{
+    font-family: lora;
+}
+
+.form label{
+    font-family: trail;
+}
+
+.form button{
+    font-family: trail;
+    padding: 10px;
+}
+
+.logIn{
+    background-color: #AF3E3E;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 1s ease-in-out;
+    font-family: trail;
+}
+
+.logIn:hover{
+    background-color: wheat;
+    color: #AF3E3E;
+}
+
+.form{
+    width: 40%;
+    text-align: center;
+    background-color: beige;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.form input{
+    width: 30%;
+    height: 3vh;
+}
+
+.form a{
+    margin-top: 2%;
+}
+

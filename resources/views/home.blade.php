@@ -14,7 +14,7 @@
         <div class="navbarlinks">
             <div class="homelink">
                 <ion-icon name="bed-outline"></ion-icon>
-                <a href="#">Home</a>
+                <a href="{{url('/home')}}">Home</a>
             </div>
             <div class="aboutuslink">
                 <ion-icon name="reader-outline"></ion-icon>
@@ -22,7 +22,7 @@
             </div>
             <div class="loginlink">
                 <ion-icon name="person-outline"></ion-icon>
-                <a href="#">Log Out</a>
+                <a href="{{url('/welcome')}}">Log Out</a>
             </div>
         </div>
     </div>
@@ -33,7 +33,7 @@
             <p>Our Products are suitable for a wide range of skin tones,
                 types<br> and skin types.
             </p>
-            <a href="#">Our Shop</a>
+            <a href="{{url('/shop')}}">Our Shop</a>
         </div>
 
         <img class='blackWoman' src="{{asset('images/blackwoman.png')}}" alt="">

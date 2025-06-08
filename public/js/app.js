@@ -183,3 +183,16 @@ gsap.from(femininefoto, {
         toggleActions: "play none none none",
     },
 });
+
+const divForm = document.querySelector(".divForm");
+
+gsap.from(divForm, {
+    opacity: 0,
+    x: 100,
+    duration: 3,
+    scrollTrigger: {
+        trigger: divForm,
+        start: "top 130%",
+        toggleActions: "play none none none",
+    },
+});

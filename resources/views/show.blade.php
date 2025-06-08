@@ -9,20 +9,21 @@
 <body>
 
     <div class="divForm">
-        <form action="{{ url('/login') }}" method="POST" class="form">
+        <form action="{{url('/register')}}" method="POST" class='form'>
+            <h1>Sign Up</h1>
             @csrf
-            <h1>Log In</h1>
             <label for="username">Username:</label><br>
-            <input type="text" id="username" name="username" required><br><br>
-        
+            <input type="text" id='username' name='username' required><br><br>
+    
             <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password" required><br><br>
-        
-            <button type="submit" class="logIn">Log In</button><br><br>
-            <a href="{{ url('/show') }}">Not registered? Click Here</a>
+            <input type="password" id='password' name='password' required><br><br>
+    
+            <button type="submit" class="logIn">Sign Up</button><br><br>
+            <a href="{{url('/')}}">Registered? Click Here</a>
+    
         </form>
     </div>
-    
+
     @if ($errors->any())
     <div>
         <ul>
@@ -36,6 +37,7 @@
 @if (session('success'))
     <div>{{ session('success') }}</div>
 @endif
+    
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>

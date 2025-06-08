@@ -10,5 +10,14 @@ Route::get('/home',function(){
     return view('home');
 });
 
-Route::get('/login', [App\Http\Controllers\LoginController::class, 'showLoginForm']);
+Route::get('/show',function(){
+    return view('show');
+});
+
+Route::get('/shop',function(){
+    return view('shop');
+});
+
+//Route::get('/', [App\Http\Controllers\LoginController::class, 'showLoginForm']);
+Route::post('/register', [App\Http\Controllers\LoginController::class, 'register']);
 Route::post('/login', [App\Http\Controllers\LoginController::class, 'login']);
