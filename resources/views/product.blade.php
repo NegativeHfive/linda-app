@@ -2,12 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Shop</title>
+    <title>{{ $product->name }} Details</title>
     <link rel="stylesheet" href="{{asset('shop.css')}}">
 </head>
 <body>
-
     <div class="navbar">
         <h2>negative one</h2>
 
@@ -27,26 +25,16 @@
         </div>
     </div>
 
-    <h1>Welcome {{ auth()->user()->username ?? 'Guest'}}</h1>
-    <p>Welcome to our shop. This is not necessarily a shop 
-        but it gives just a demo of my skills. Hope you enjoy this <br>
-        page.
-    </p>
 
-    <div class="products-row">
-        @foreach($products as $product)
-        <div class="product">
-            @if($product->image)
-                <img src="{{ asset('storage/' . $product->image) }}" alt="{{ $product->name }}" width="150">
-            @endif
-            <h2>{{ $product->name }}</h2>
-            <p>Price: ${{ $product->price }}</p>
-            <a href="{{ route('product.show', $product->id) }}" class="details-btn">View Details</a>
-        </div>
-        @endforeach
+    <div class="productView">
+        <h1>{{ $product->name }}</h1>
+    @if($product->image)
+        <img src="{{ asset('storage/' . $product->image) }}" alt="{{ $product->name }}" width="300">
+    @endif
+    <p>Description: {{ $product->description }}</p>
+    <p>Price: ${{ $product->price }}</p>
+    <a href="{{ url('/shop') }}">Back to Shop</a>
     </div>
-  
-
 
     <div class="footer">
         <div class="iconsdiv">
@@ -62,11 +50,13 @@
 
     </div>
 
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
     <script  src="{{asset("/js/app.js")}}"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
 </body>
 </html>

@@ -38,6 +38,20 @@
 @endif
 
 
+<div class="footer">
+    <div class="iconsdiv">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-youtube"></ion-icon>
+        <ion-icon name="logo-firefox"></ion-icon>
+    </div>
+    <p>
+        Crafted with care for every shine. Join<br> our community and let your beauty inspire the world.<br> Stay connected for new collections, tips, and exclusive offers!<br>
+    </p>
+    <hr>
+    <h4>&copy;2025 Godrine Manu </h4>
+
+</div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>

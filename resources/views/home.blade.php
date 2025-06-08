@@ -18,11 +18,11 @@
             </div>
             <div class="aboutuslink">
                 <ion-icon name="reader-outline"></ion-icon>
-                <a href="#">About Us</a>
+                <a href="{{url('/about')}}">About Us</a>
             </div>
             <div class="loginlink">
                 <ion-icon name="person-outline"></ion-icon>
-                <a href="{{url('/welcome')}}">Log Out</a>
+                <a href="{{url('/')}}">Log Out</a>
             </div>
         </div>
     </div>
@@ -94,7 +94,7 @@
             <div class="partnerBodyText">
                 <h1 class=''>Spring Collection</h1>
                 <p class=''>Discover our vibrant Spring Collection, inspired<br> by blooming flowers and fresh beginnings. Enjoy new shades and gentle<br> formulas designed to make your nails shine all season long.</p>
-                <a href="#">About Us</a>
+                <a href="{{url('/about')}}">About Us</a>
             </div>
             <img class='partnerImage' src="{{asset ("images/treenail.png")}}" alt="">
         </div>
@@ -170,8 +170,6 @@
         <h4>&copy;2025 Godrine Manu </h4>
 
     </div>
-
-
 
 
 

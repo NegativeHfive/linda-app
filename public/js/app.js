@@ -196,3 +196,55 @@ gsap.from(divForm, {
         toggleActions: "play none none none",
     },
 });
+
+
+const productsRow = document.querySelector(".products-row");
+gsap.from(productsRow, {
+    opacity: 0,
+    y: 100,
+    duration: 3,
+    scrollTrigger: {
+        trigger: productsRow,
+        start: "top 130%",
+        toggleActions: "play none none none",
+    },
+});
+
+
+const productView = document.querySelector(".productView");
+
+gsap.from(productView, {
+    opacity: 0,
+    y: 100,
+    duration: 3,
+    scrollTrigger: {
+        trigger: productView,
+        start: "top 130%",
+        toggleActions: "play none none none",
+    },
+});
+
+const leftlayer = document.querySelector(".leftlayer");
+const rightlayer = document.querySelector(".rightlayer");
+
+gsap.from(leftlayer, {
+    opacity: 0,
+    x: -100,
+    duration: 3,
+    scrollTrigger: {
+        trigger: leftlayer,
+        start: "top 130%",
+        toggleActions: "play none none none",
+    },
+});
+
+gsap.from(rightlayer, {
+    opacity: 0,
+    x: 100,
+    duration: 3,
+    scrollTrigger: {
+        trigger: rightlayer,
+        start: "top 130%",
+        toggleActions: "play none none none",
+    },
+});
