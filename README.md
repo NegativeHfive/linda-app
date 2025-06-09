@@ -7,6 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Photos
+![Screenshot_107](https://github.com/user-attachments/assets/d3e61700-a744-4b00-81d3-446117f61153)
+![Screenshot_106](https://github.com/user-attachments/assets/fffd57d9-9cc2-40bc-bbb9-309f340160c9)
+![Screenshot_105](https://github.com/user-attachments/assets/02889e51-8cba-48ae-817b-d2dc64d806fc)
+![Screenshot_104](https://github.com/user-attachments/assets/31487933-efd4-455e-a5fd-104f24969acd)
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -44,11 +50,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[Redberry](https://redberry.international/laravel-development)**
 - **[Active Logic](https://activelogic.com)**
 
-## Photos
-![Screenshot_107](https://github.com/user-attachments/assets/d3e61700-a744-4b00-81d3-446117f61153)
-![Screenshot_106](https://github.com/user-attachments/assets/fffd57d9-9cc2-40bc-bbb9-309f340160c9)
-![Screenshot_105](https://github.com/user-attachments/assets/02889e51-8cba-48ae-817b-d2dc64d806fc)
-![Screenshot_104](https://github.com/user-attachments/assets/31487933-efd4-455e-a5fd-104f24969acd)
+
 
 
 ## Contributing
